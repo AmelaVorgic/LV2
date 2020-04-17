@@ -11,6 +11,7 @@ namespace LV2
     {
         private List<Die> dice;
         private List<int> resultForEachRoll;
+        
         public ClosedDiceRoller(int diceCount, int numberOfSides)
         {
             this.dice = new List<Die>();
@@ -20,6 +21,7 @@ namespace LV2
             }
             this.resultForEachRoll = new List<int>();
         }
+        
         public void RollAllDice()
         {
             this.resultForEachRoll.Clear();
