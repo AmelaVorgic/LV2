@@ -8,6 +8,6 @@ namespace LV2
 {
     interface ILogable
     {
-        string GetStringRepresentation();
+         string GetStringRepresentation();
     }
 }
