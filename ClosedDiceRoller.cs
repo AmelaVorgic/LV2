@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LV2
 {
+    /*zadatak 6.*/
     class ClosedDiceRoller : IRoller
     {
         private List<Die> dice;

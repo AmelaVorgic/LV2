@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LV2
 {
+    /*zadatak 4., zadatak 5.*/
     class DiceRoller : ILogable
     {
         private List<Die> dice;

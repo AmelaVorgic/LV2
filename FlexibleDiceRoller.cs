@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LV2
 {
+    /*zadatak 6.*/
     class FlexibleDiceRoller : IRoller, IHandleDice
     {
         private List<Die> dice;
@@ -32,6 +33,7 @@ namespace LV2
             this.dice.Clear();
             this.resultForEachRoll.Clear();
         }
+        /*zadatak 7.*/
         public void RemoveDiceWithSides(int sides)
         {
             for (int i = 0; i < dice.Count; i++)

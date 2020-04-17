@@ -9,6 +9,7 @@ namespace LV2
     class Die
     {
         private int numberOfSides;
+        /*zadatak 3.*/
         private RandomGenerator randomGenerator;
         public Die(int numberOfSides)
         {
