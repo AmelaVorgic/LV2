@@ -35,9 +35,7 @@ namespace LV2
         }
         public IList<int> GetRollingResults()
         {
-
             return new System.Collections.ObjectModel.ReadOnlyCollection<int>(this.resultForEachRoll);
-
         }
         public int DiceCount
         {
